@@ -210,7 +210,8 @@ endif
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0.vendor
+    android.hardware.gatekeeper@1.0.vendor \
+    libion.vendor
 
 # GNSS
 PRODUCT_PACKAGES += \
@@ -332,7 +333,7 @@ PRODUCT_PACKAGES += \
 # OMX
 PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0-service \
-	libavservices_minijail.vendor \
+    libavservices_minijail.vendor \
     libstagefright_omx.vendor \
     libc2dcolorconvert \
     libhypv_intercept \
@@ -416,6 +417,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     librmnetctl \
+    libsqlite.vendor \
+    libsysutils.vendor \
     rild
 
 PRODUCT_PACKAGES += \
