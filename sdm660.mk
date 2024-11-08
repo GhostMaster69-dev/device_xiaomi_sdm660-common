@@ -280,7 +280,6 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc \
     init.target.rc \
-    init.xiaomi.rc \
     init.xiaomi_parts.rc \
     ueventd.qcom.rc \
     apex_metadata.rc
