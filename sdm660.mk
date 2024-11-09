@@ -361,10 +361,6 @@ PRODUCT_PACKAGES += \
     SettingsSDM660Overlay \
     TelephonySDM660Overlay
 
-PRODUCT_PACKAGES += \
-    FrameworksBaseSDM660OverlayEvolution \
-    SettingsOverlaySDM660Evolution
-
 # Perf
 PRODUCT_PACKAGES += \
     libqti-perfd-client
